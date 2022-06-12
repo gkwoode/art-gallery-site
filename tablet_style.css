@@ -1,0 +1,563 @@
+@media screen and (min-width: 375px) and (max-width:768px){
+   
+    body{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        background: #ffffff;
+    }
+
+    #image-hero{
+        position: absolute;
+        width: 437px;
+        height: 700px;
+        left: 0px;
+        top: 0px;
+        background-image: url(./assets/tablet/image-hero.jpg);
+    }
+
+    #box-top{
+        position: absolute;
+        width: 339px;
+        height: 410px;
+        top: 145px;
+        left: 389px;
+        /* float: right; */
+    }
+
+    #header{
+        position: absolute;
+        width: 339px;
+        height: 410px;
+        left: 389px;
+        right: 20px;
+        top: 145px;
+    }
+
+    #header-font-left{
+        position: absolute;
+        height: 130px;
+        left: 0%;
+        right: 0%;
+        /* top: 200px; */
+        top: calc(50% - 130px/2 - 180px);
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: #151515;
+        /* float: right; */
+    }
+
+    #header-font-right{
+        position: absolute;
+        height: 112px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 112px/2 + 29px);
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #444444;
+    }
+
+    #location{
+        position: absolute;
+        width: 260px;
+        height: 72px;
+        left: 0px;
+        top: 338px;
+    }
+
+    #left-box{
+        position: absolute;
+        width: 204px;
+        height: 72px;
+        left: 0%;
+        right: 39.82%;
+        bottom: 0%;
+        background-color: #151515;
+    }
+
+    #location-font{
+        position: absolute;
+        height: 24px;
+        left: 15.69%;
+        right: 17.16%;
+        top: calc(50% - 24px/2 - 21px);
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 18px;
+        letter-spacing: 3.63636px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    #right-box{
+        position: absolute;
+        width: 56px;
+        height: 72px;
+        left: 204px;
+        top: 338px;
+        background-color: #d5966c;
+    }
+
+    #location-path{
+        position: absolute;
+        left: 67.26%;
+        right: 30.38%;
+        top: 88.29%;
+        bottom: 5.85%;
+        border: 1px solid #ffffff;
+        background-image: url(./assets/icon-arrow-right.svg);
+    }
+
+    #main-font-top{
+        position: absolute;
+        width: 223px;
+        height: 299px;
+        left: 39px;
+        top: 856px;
+    }
+
+    #main-font-top1{
+        position: absolute;
+        height: 135px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 135px/2 - 102px);
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #151515;
+    }
+
+    #main-font-top2{
+        position: absolute;
+        height: 140px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 140px/2 + 69.5px);
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #444444;
+    }
+
+    #image-grid-1{
+        position: absolute;
+        width: 398px;
+        height: 400px;
+        left: 330px;
+        top: 820px;
+        background-image: url(./assets/tablet/image-grid-1.jpg);
+    }
+
+    #image-grid-2{
+        position: absolute;
+        width: 398px;
+        height: 720px;
+        left: 39px;
+        top: 1231px;
+        background-image: url(./assets/tablet/image-grid-2.jpg);
+    }
+
+    #image-grid-3{
+        position: absolute;
+        width: 280px;
+        height: 313px;
+        left: 448px;
+        top: 1231px;
+        background-image: url(./assets/tablet/image-grid-3.jpg);
+    }
+
+    #box-down{
+        position: absolute;
+        width: 280px;
+        height: 396px;
+        left: 448px;
+        top: 1555px;
+        background-color: #151515;
+    }
+
+    #main-font-down{
+        position: absolute;
+        width: 223px;
+        height: 226px;
+        left: 477px;
+        top: 1640px;
+    }
+
+    #main-font-down1{
+        position: absolute;
+        height: 90px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 90px/2 - 128px);
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    #main-font-down2{
+        position: absolute;
+        height: 112px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 112px/2 + 77px);
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+    }
+
+    #footer{
+        position: absolute;
+        width: 768px;
+        height: 216px;
+        left: 0px;
+        top: 2071px;
+        background-color: #151515;
+    }
+
+    #footer-font{
+        position: absolute;
+        width: 689px;
+        height: 104px;
+        left: 39px;
+        top: 2127px;
+    }
+
+    #footer-font-left{
+        position: absolute;
+        left: 0%;
+        right: 84.03%;
+        top: 0%;
+        bottom: 61.54%;
+        color: #ffffff;
+        font-family: 'Big Shoulders Display';
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 800;
+    }
+
+    #footer-font-right{
+        position: absolute;
+        height: 104px;
+        left: 25.4%;
+        right: 33.82%;
+        top: calc(50% - 104px/2);
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
+    #footer-icon{
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        left: 589px;
+        top: 0px;
+    }
+
+    #fb-icon{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 0px;
+        /* left: 85.49%; */
+        right: 11.61%;
+        top: 0%;
+        bottom: 80.77%;
+        background-image: url(./assets/icon-facebook.svg);
+        /* background-color: #ffffff; */
+    }
+
+    #ig-icon{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        /* left: 91.29%; */
+        left: 40px;
+        right: 5.81%;
+        top: 0%;
+        bottom: 80.77%;
+        background-image: url(./assets/icon-instagram.svg);
+    }
+
+    #twitter-icon{
+        position: absolute;
+        width: 20px;
+        height: 17px;
+        /* left: 97.1%; */
+        left: 80px;
+        right: 0%;
+        top: 2.16%;
+        bottom: 82.21%;
+        background-image: url(./assets/icon-twitter.svg);
+    }
+
+
+    /******************************************/
+    /*                                        */
+    /*       LOCATION PAGE CSS BELOW          */
+    /*                                        */
+    /******************************************/
+
+    #map{
+        position: absolute;
+        width: 768px;
+        height: 600px;
+        left: 0px;
+        top: 0px;
+        background-color: #e9e9e9;
+        background-image: url(./assets/tablet/image-map.png);
+    }
+
+    #back-home{
+        position: absolute;
+        width: 264px;
+        height: 72px;
+        left: 39px;
+        top: 0px;
+    }
+
+    #back-home-left{
+        position: absolute;
+        width: 56px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        background-color: #d5966c;
+    }
+
+    #back-arrow{
+        position: absolute;
+        width: 8px;
+        height: 24px;
+        left: 24px;
+        top: 24px;
+        border: 1px solid #ffffff;
+        transform: rotate(180deg);
+    }
+
+    #back-home-right{
+        padding: absolute;
+        width: 208px;
+        height: 72px;
+        left: 95px;
+        top: 0px;
+        background-color: #151515;
+    }
+
+    #back-home-font{
+        position: absolute;
+        height: 24px;
+        left: 27.38%;
+        right: 10.83%;
+        top: calc(50% - 24px/2);
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.63636px;
+        color: #ffffff;
+        text-transform: uppercase;
+
+    }
+
+    /* Location Main Page style */
+    #location-body-box{
+        position: absolute;
+        width: 768px;
+        height: 436px;
+        left: 0px;
+        top: 600px;
+        background-color: #151515;
+    }
+
+    #location-body-font{
+        position: absolute;
+        width: 689px;
+        height: 268px;
+        left: 39px;
+        top: 688px;
+    }
+
+    #location-body-font-left{
+        position: absolute;
+        height: 100px;
+        left: 0%;
+        right: 67.63%;
+        top: calc(50% - 100px/2 - 84px);
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    #location-address-font{
+        position: absolute;
+        left: 42.24%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    }
+
+    #king-street{
+        position: absolute;
+        height: 32px;
+        left: 0%;
+        right: 12.06%;
+        top: calc(50% - 32px/2 - 118px);
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #d5966c;
+    }
+
+    #newport{
+        position: absolute;
+        height: 84px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 84px/2 - 40px);
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+    }
+
+    #location-body-font-right{
+        position: absolute;
+        height: 112px;
+        left: 42.24%;
+        right: 0%;
+        top: calc(50% - 112px/2 + 78px);
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+    }
+
+    #location-footer{
+        position: absolute;
+        width: 768px;
+        height: 216px;
+        left: 0px;
+        top: 1036px;
+        background-color: #d5966c;
+    }
+
+    #location-footer-items{
+        position: absolute;
+        width: 689px;
+        height: 104px;
+        left: 39px;
+        top: 1092px;
+    }
+
+    #location-footer-font-left{
+        position: absolute;
+        left: 0%;
+        right: 84.03%;
+        top: 0%;
+        bottom: 61.54%;
+        color: #151515;
+        font-size: 22px;
+        font-weight: 800;
+        font-family:  'Big Shoulders Display';
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    #location-footer-font-center{
+        position: absolute;
+        height: 104px;
+        width: 281px;
+        left: 25.4%;
+        right: 33.82%;
+        top: calc(50% - 104px/2);
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #151515;
+    }
+
+    #location-footer-icons{
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        left: 589px;
+        top: 0px;
+    }
+
+    #location-fb-icon{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 0px;
+        right: 11.61%;
+        top: 0%;
+        bottom: 80.77%;
+        background-image: url(./assets/icon-facebook.svg);
+    }
+
+    #location-ig-icon{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 40px;
+        right: 5.81%;
+        top: 0%;
+        bottom: 80.77%;
+        background-image: url(./assets/icon-instagram.svg);
+    }
+
+    #location-twitter-icon{
+        position: absolute;
+        width: 20px;
+        height: 17px;
+        left: 80px;
+        right: 0%;
+        top: 0%;
+        bottom: 82.21%;
+        background-image: url(./assets/icon-twitter.svg);
+    }
+}
