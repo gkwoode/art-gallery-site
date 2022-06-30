@@ -1,610 +1,501 @@
-@media screen and (min-width:769px){
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 100%;
+    height: 100%; */
+    /* overflow: hidden; */
+}
+
+/* html, body{
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    background: #ffffff;
+} */
+
+/* @media screen (min-width: 781px) {
     body{
-        position: relative;
-        width: 100vw;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
-        background: #ffffff;
+        width: 100%;
     }
-    
-    header{
-        position: absolute;
-        width: 1275px;
-        height: 800px;
-        left: 0px;
-        top: 0px;
-    }
-    
-    #box-top{
-        position: absolute;
-        left: 0%;
-        right: 64.71%;
-        top: 0.12%;
-        bottom: 0%;
-        background: #151515;
-        height: 799px;
-        width: 450px;
-        /* top: 1px; */
-    }
+} */
 
-
-    @media only screen and (max-width: 719px) {
-        #box-top {
+/*************************************/
+/* Styling For Laptop & Desktop View */
+/*************************************/
+/* @media only screen and (min-width: 781px) { */
+    /* html, body{ */
+        /* width: 100%; */
+        /* height: 100%; */
+        /* margin: 0; */
+        /* padding: 0; */
+        /* overflow-x: hidden; */
+    /* } */
+    
+    @media only screen and (max-width: 768px) {
+        .black-box {
             background: none;
         }
         
     }
-    
-    #image-hero{
+
+    /* #top{
+       position: absolute;
+       width: 1440px;
+       height: 800px;   
+    } */
+
+    /* Top Styling */
+
+    .header{
         position: absolute;
-        left: 35.39%;
-        right: 22.35%;
-        top: 0%;
-        bottom: 0%;
-        background: url(./assets/desktop/image-hero.jpg);
-        width: 540px;
-        height: 800px;
+        color: #ffffff;
     }
 
-    #header-font-left{
+    .black-box{
         position: absolute;
+        width: 450px;
+        height: 800px;
+        left: 0;
+        top: 0;
+        background: #151515;
+    }
+
+    .image-hero{
+        position: absolute;
+        width: 540px;
+        height: 800px;
+        left: 450px;
+        top: 0;
+        background: url(./assets/desktop/image-hero.jpg);
+    }
+
+    .header-text-one{
+        position: absolute;
+        top: 190px;
+        left: 165px;
+        width: 544px;
+        height: 196px;
         font-family: 'Big Shoulders Display';
-        font-style: normal;
-        font-size: 96px;
         font-weight: 900;
-        line-height: 88px;
+        font-size: 106px;
+        line-height: 98px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        /* background: linear-gradient(90deg, #ffffff 55.4%, #151515 30%); */
+        background: linear-gradient(to right, #ffffff 52.3%, #151515 30%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .header-text-two{
+        position: absolute;
+        top: 190px;
+        left: 925px;
+        width: 360px;
+        height: 160px;
+        color: #444444;
+        font-family: 'Outfit';
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .map-location{
+        position: absolute;
+        top: 414px;
+        left: 925px;
+        width: 260px;
+        height: 72px;
+    }
+
+    .left-box{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 204px;
+        height: 72px;
+        background-color: #151515;
+    }
+
+    .right-box{
+        position: absolute;
+        top: 0;
+        left: 204px;
+        width: 56px;
+        height: 72px;
+        background-color: #d5966c;
+        display: grid;
+        place-items: center;
+    }
+
+    .location-text{
+        position: absolute;
+        top: 24px;
+        left: 32px;
         color: #ffffff;
-        height: 176px;
-        width: 514px;
-        left: 18.67%;
-        right: -50.89%;
-        top: calc(50% - 176px/2 - 122.5px);
+        font-family: 'Big Shoulders Display';
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: 3.63px;
         text-transform: uppercase;
     }
-    
-    #header-font-right{
+
+    .index-page:hover .left-box{
+        background-color: #d5966c;
+    }
+
+    .index-page:hover .right-box{
+        background-color: #151515;
+    }
+
+    /* Middle Styling */
+    #middle{
         position: absolute;
-        height: 160px;
-        left: 72.55%;
-        right: 0%;
-        top: calc(50% - 160px/2 - 130px);
+        max-width: 1110px;
+        height: 1150px;
+        left: 165px;
+        right: 164px;
+        top: 980px;
+    }
+
+    .main-text-top{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        left: 0;
+        gap: 20px;
+        top: 50px;
+        height: 280px;
+        width: 350px;
+    }
+
+    .main-text-top1{
+        /* position: absolute; */
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 84px;
+        line-height: 80px;
+        color: #151515;
+        text-transform: uppercase;
+    }
+
+    .main-text-top2{
+        /* position: absolute; */
         font-family: 'Outfit';
-        font-style: normal;
         font-weight: 300;
         font-size: 22px;
         line-height: 32px;
         color: #444444;
     }
-    
-    #location{
-        position: absolute;
-        width: 260px;
-        height: 72px;
-        left: 925px;
-        top: 414px;
-    }
-    
-    #location-font{
-        position: absolute;
-        height: 24px;
-        left: 15.69%; 
-        right: 17.16%;
-        top: calc(50% - 24px/2 - 22px);
-        font-family: 'Big Shoulders Display';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 3.63636px;
-        color: #ffffff;
-        text-transform: uppercase;
-    }
-    
-    #left-box{
-        position: absolute;
-        background: #151515;
-        width: 204px;
-        height: 72px;
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-    }
-    
-    #right-box{
-        position: absolute;
-        background: #d5966c;
-        width: 56px;
-        height: 72px;
-        left: 88.55%;
-        right: 7.06%;
-        top: 51.75%;
-        bottom: 39.25%;
-        top: 414px;
-        left: 1129px;
-    }
 
-    /* CSS for changing location button color when clicked*/
-    .index-page:active #left-box{
-        background: #d5966c;
-    }
-
-    .index-page:active #right-box{
-        background: #151515;
-    }
-    
-    #location-path{
+    .image-grid-1{
         position: absolute;
-        width: 8px;
-        height: 24px;
-        left: 90.43%;
-        right: 8.94%;
-        top: 54.75%;
-        bottom: 42.25%;
-        border: 1px solid #ffffff;
-        top: 438px;
-        left: 1153px;
-        background: url(./assets/icon-arrow-right.svg);
-    }
-    
-    #main-font-top{
-        position: absolute;
-        width: 350px;
-        height: 280px;
-        left: 165px;
-        top: 1040px;
-    }
-    
-    #main-font-top1{
-        position: absolute;
-        height: 120px;
-        left: 0%;
-        right: 0%;
-        top: calc(50% -120px/2 - 120px);
-        /* top: -10%; */
-        font-family: 'Big Shoulders Display';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 60px;
-        line-height: 60px;
-        text-transform: uppercase;
-        color: #151515;;
-    }
-    
-    #main-font-top2{
-       position: absolute;
-       height: 128px;
-       left: 0%;
-       right: 0%;
-       top: calc(50% - 128px/2 + 76px);
-       font-family: 'Outfit';
-       font-style: normal;
-       font-weight: 300;
-       font-size: 22px;
-       line-height: 32px;
-       color: #444444;
-    }
-    
-    #image-grid-1{
-        position: absolute;
+        left: 475px;
+        top: 0;
         width: 635px;
         height: 400px;
-        left: 640px;
-        top: 980px;
-        background: url(./assets/desktop/image-grid-1.jpg);
+        background-image: url(./assets/desktop/image-grid-1.jpg);
     }
-    
-    #image-grid-2{
+
+    .image-grid-2{
         position: absolute;
+        top: 430px;
+        left: 0;
         width: 635px;
         height: 720px;
-        left: 165px;
-        top: 1410px;
-        background: url(./assets/desktop/image-grid-2.jpg);
+        background-image: url(./assets/desktop/image-grid-2.jpg);
     }
-    
-    #image-grid-3{
+
+    .image-grid-3{
         position: absolute;
         width: 445px;
         height: 313px;
-        left: 830px;
-        top: 1410px;
-        background: url(./assets/desktop/image-grid-3.jpg);
+        top: 430px;
+        left: 665px;
+        background-image: url(./assets/desktop/image-grid-3.jpg);
     }
-    
-    #box-down{
+
+    .box-down{
         position: absolute;
         width: 445px;
         height: 377px;
-        left: 830px;
-        top: 1753px;
-        background: #151515;
+        top: 773px;
+        left: 665px;
+        background-color: #151515;
+        display: grid;
+        place-items: center;
     }
-    
-    #main-font-down{
+
+    .main-text-down{
         position: absolute;
         width: 350px;
-        height: 248px;
-        left: 878px;
-        top: 1768px;
-    }
-    
-    #main-font-down1{
-        position: absolute;
-        height: 120px;
-        left: 0%;
-        right: 0%;
-        top: calc(50% - 120px/2 - 84px);
-        font-family: 'Big Shoulders Display';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 60px;
-        line-height: 55px;
-        text-transform: uppercase;
+        height: 288px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
         color: #ffffff;
-        /* color: #151515; */
     }
-    
-    #main-font-down2{
-        position: absolute;
-        height: 96px;
-        left: 0%;
-        right: 0%;
-        top: calc(50% - 96px/2 + 96px);
+
+    .main-text-down1{
+        font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: 84px;
+        line-height: 80px;
+        text-transform: uppercase;
+    }
+
+    .main-text-down2{
         font-family: 'Outfit';
-        font-style: normal;
         font-weight: 300;
         font-size: 22px;
         line-height: 32px;
-        color: #ffffff;
-        /* color: #151515; */
     }
-    
+
+    /* Footer Styling */
     #footer{
         position: absolute;
-        background: #151515;
-        left: 0px;
         width: 1440px;
         height: 244px;
-        top: 2310px;
+        color: #ffffff;
+        background-color: #151515;
+        top: 2440px;
     }
-    
-    #footer-font{
+
+    .footer{
         position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         width: 1110px;
         height: 84px;
         left: 165px;
-        top: 2390px;
-        color: #ffffff;
+        top: 80px;
     }
-    
-    #footer-font-left{
-        position: absolute;
-        left: 0%;
-        right: 78.14%;
-        top: 0%;
-        /* bottom: 30.95%; */
-        color: #ffffff;
-        width: 159.57px;
-        height: 58px;
-        font-size: 22px;
-        font-weight: 900;
-        text-transform: uppercase;
+
+    .footer-text-one{
+        /* position: absolute; */
+        width: 160px;
+        height: 80px;
         font-family: 'Big Shoulders Display';
-        letter-spacing: 2px;;
+        font-weight: 900;
+        font-size: xx-large;
+        letter-spacing: 2px;
+        text-transform: uppercase;
     }
-    
-    #footer-font-right{
-        position: absolute;
-        height: 84px;
+
+    .footer-text-two{
+        /* position: absolute; */
         width: 430px;
-        left: 31.1%;
-        right: 0%;
-        top: 0%;
-        /* bottom: 0%; */
+        height: 84px;
         font-family: 'Outfit';
-        font-style: normal;
         font-weight: 300;
         font-size: 18px;
         line-height: 28px;
-        color: #ffffff;
-    }
-    
-    #footer-icon{
-        position: absolute;
-        width: 100px;
-        height: 20px;
-        left: 1010px;
-        top: 0%;
-    }
-    
-    #fb-icon{
-        position: absolute;
-        left: 0px;
-        top: 0px;
-    }
-    
-    #ig-icon{
-        position: absolute;
-        left: 40px;
-        top: 0px;
-    }
-    
-    #twitter-icon{
-        position: absolute;
-        left: 80px;
-        top: 0px;
     }
 
-    .path:active{
+    .footer-icon{
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+
+    .icon:hover .path{
         fill: #d5966c;
     }
 
-    /******************************************/
-    /*                                        */
-    /*       LOCATION PAGE CSS BELOW          */
-    /*                                        */
-    /******************************************/
-    
-    /* Location Map */
-    #map{
-        position: absolute;
+
+    /* Location Page Styling */
+    .flex{
+        max-width: 1440px;
+        height: 1392px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Location Top Content Styling */
+    .location-top{
         width: 1440px;
         height: 600px;
-        left: 0px;
-        top: 0px;
-        background-color: #444444;
-        background: url(./assets/desktop/image-map.png);
     }
-    
-    /* Link to main page */
-    #back-home{
+
+    .map{
+        position: absolute;
+        /* width: 100vw; */
+        width: 1440px;
+        height: 600px;
+        background-image: url(./assets/desktop/image-map.png);
+    }
+
+    .back{
         position: absolute;
         width: 264px;
         height: 72px;
         left: 156px;
-        top: 0px;
+        top: 0;
     }
-    
-    #back-home-left{
+
+    .back-left{
         position: absolute;
         width: 56px;
         height: 72px;
-        left: 0px;
-        top: 0px;
-        background: #d5966c;
+        left: 0;
+        background-color: #d5966c;
+        display: grid;
+        place-items: center;
     }
-    
-    #back-home-right{
+
+    .back-right{
         position: absolute;
         width: 208px;
         height: 72px;
         left: 56px;
-        background: #151515;
+        top: 0;
+        background-color: #151515;
     }
-    
-    #back-home-font{
+
+    .back-font{
         position: absolute;
-        height: 24px;
-        width: 180px;
-        left: 15.38%;
-        right: 16.83%;
-        top: calc(50% - 24px/2);
+        top: 24px;
+        left: 32px;
+        color: #ffffff;
         font-family: 'Big Shoulders Display';
-        font-style: normal;
         font-weight: 800;
         font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 3.63636px;
-        color: #ffffff;
+        letter-spacing: 3.63px;
         text-transform: uppercase;
     }
-    
-    #back-arrow{
-        position: absolute;
-        width: 8px;
-        height: 24px;
-        left: 24px;
-        top: 24px;
-        border: 1px solid #ffffff;
-        transform: rotate(180deg);
-        background: url(./assets/icon-arrow-right.svg);
+
+    .location:hover .back-left{
+        background-color: #151515;
     }
 
-    /* CSS for changing location button to main page color when clicked*/
-    .location:active #back-home-right{
-        background: #d5966c;
+    .location:hover .back-right{
+        background-color: #d5966c;
     }
 
-    .location:active #back-home-left{
-        background: #151515;
-    }
-    
-    /* Location Main Page */
-    #location-body-box{
-        position: absolute;
+    /* Location Middle Content Styling */
+    .location-middle{
         width: 1440px;
         height: 548px;
-        left: 0px;
-        top: 600px;
-        background: #151515;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-color: #151515;
+        display: flex;
+        place-items: center;
+        /* justify-items: center; */
+        justify-content: center;
     }
-    
-    #location-body-font{
-        position: absolute;
+
+    .location-body-box{
         width: 1110px;
         height: 316px;
-        left: 165px;
-        top: 704px;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
-    
-    #location-body-font-left{
-        position: absolute;
+
+    .location-body-font{
+        width: 310px;
         height: 140px;
-        left: 0%;
-        right: 68.47%;
-        top: calc(50% - 140px/2 - 88px);
-        font-family: 'Big Shoulders Display';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 70px;
-        line-height: 70px;
-        text-transform: uppercase;
         color: #ffffff;
-    }
-    
-    #location-address-font{
-        position: absolute;
-        left: 51.35%;
-        right: 8.56%;
-        top: 0%;
-        bottom: 50.63%;
-    }
-    
-    #king-street{
-        position: absolute;
-        height: 36px;
-        left: 0%;
-        right: 21.35%;
-        top: calc(50% - 36px/2 - 60px);
         font-family: 'Big Shoulders Display';
-        font-style: normal;
         font-weight: 900;
+        font-size: 80px;
+        line-height: 80px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .location-address-font{
+        width: 540px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .king-street{
+        font-family: 'Big Shoulders Display';
         font-size: 36px;
-        line-height: 36px;
-        text-transform: uppercase;
+        font-weight: 900;
         color: #d5966c;
+        text-transform: uppercase;
     }
-    
-    #newport{
-        position: absolute;
-        height: 96px;
-        left: 0%;
-        right: 0%;
-        top: calc(50% - 96px/2 + 30px);
+
+    .newport{
         font-family: 'Outfit';
-        font-style: normal;
         font-weight: 300;
         font-size: 22px;
-        line-height: 32px;
-        color: #ffffff;
     }
-    
-    #location-body-font-right{
-        position: absolute;
-        height: 128px;
-        left: 51.35%;
-        right: 0%;
-        top: calc(50% - 128px/2 + 94px);
+
+    .location-body-font-right{
         font-family: 'Outfit';
-        font-style: normal;
         font-weight: 300;
         font-size: 22px;
-        line-height: 32px;
-        color: #ffffff;
     }
-    
-    /* Footer Style */
-    #location-footer{
-        position: absolute;
+
+    /* Location Footer Content Styling */
+    .location-bottom{
         width: 1440px;
         height: 244px;
-        left: 0px;
-        top: 1148px;
-        background: #d5966c;
+        background-color: #d5966c;
     }
-    
-    #location-footer-items{
+
+    .location-footer{
         position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         width: 1110px;
         height: 84px;
         left: 165px;
-        top: 1228px;
+        margin-top: 80px;
     }
-    
-    #location-footer-items-left{
-        position: absolute;
-        width: 730px;
-        height: 84px;
-        left: 165px;
-        top: 0px;
-    }
-    
-    /* Modern Art Gallery */
-    #location-footer-font-left{
-        position: absolute;
-        left: 0%;
-        right: 78.14%;
-        top: 0%;
-        bottom: 30.95%;
-        color: #151515;
-        height: 58px;
-        width: 159.57px;
-        font-size: 22px;
-        font-weight: 900;
-        text-transform: uppercase;
+
+    .location-footer-font-one{
+        width: 160px;
+        height: 80px;
         font-family: 'Big Shoulders Display';
+        font-weight: 900;
+        font-size: xx-large;
         letter-spacing: 2px;
+        text-transform: uppercase;
     }
-    
-    #location-footer-font-center{
-        position: absolute;
+
+    .location-footer-font-two{
+        width: 430px;
         height: 84px;
-        left: 41.1%;
-        right: 0%;
-        top: calc(50% - 84px/2);
         font-family: 'Outfit';
-        font-style: normal;
         font-weight: 300;
         font-size: 18px;
         line-height: 28px;
-        color: #151515;
-    }
-    
-    /* Footer Icons */
-    #location-footer-icons{
-        position: absolute;
-        width: 100px;
-        height: 20px;
-        left: 991px;
-        top: 0px;
-    }
-    
-    #location-fb-icon{
-        background-image: url(./assets/icon-facebook.svg);
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        left: 0px;
-        top: 0px;
-        fill: #151515;
-    }
-    
-    #location-ig-icon{
-        background-image: url(./assets/icon-instagram.svg);
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        left: 40px;
-        top: 0px;
-        fill: #151515;
-    }
-    
-    #location-twitter-icon{
-        background-image: url(./assets/icon-twitter.svg);
-        position: absolute;
-        width: 20px;
-        height: 17px;
-        left: 80px;
-        top: 0px;
-        /* fill: #151515; */
     }
 
-    .location-path:active{
+    .location-footer-icons{
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        height: 20px;
+    }
+
+    .location-icon:hover .location-path{
         fill: #ffffff;
     }
+
+/* } */
+
+
+/***************************/
+/* Styling For Tablet View */
+/***************************/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     
 }
 
+/***************************/
+/* Styling For Mobile View */
+/***************************/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+}
